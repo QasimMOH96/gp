@@ -1,0 +1,43 @@
+void main() {
+  
+}
+
+class Admin {
+  var name;
+
+  String email;
+
+  String ID;
+
+  String password;
+
+}
+class Payment{
+  int pid;
+  string TypePay;
+  string PicBill;
+  int OrderNumber;
+  string PayMethod;
+  int orderid;
+  int custmerid;
+  string status;
+}
+class Items{
+  int CP;
+  int Amount;
+  Double PriceforEach ;
+  string PID;
+  
+}
+class Custmer{
+  string fullname;
+  string id;
+  string password;
+  string adminID;
+}
+class CartOrderinfo{
+  int OrderID;
+  int CIPD;
+  int CustomerID;
+  double priceall;
+}
